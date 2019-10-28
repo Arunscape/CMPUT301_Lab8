@@ -33,4 +33,7 @@ public class City implements Comparable<City> {
         return this.city == c.city && this.province == province;
     }
 
+    public String concat() {
+        return this.city + this.province;
+    }
 }
